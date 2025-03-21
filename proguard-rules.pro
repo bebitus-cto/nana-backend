@@ -1,0 +1,1 @@
+-keep class com.nana.nana.domain.feature.** { *; }
