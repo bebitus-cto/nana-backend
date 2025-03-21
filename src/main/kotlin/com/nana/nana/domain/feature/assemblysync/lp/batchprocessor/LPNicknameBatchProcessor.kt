@@ -3,6 +3,7 @@ package com.nana.nana.domain.feature.assemblysync.lp.batchprocessor
 import com.nana.nana.domain.feature.assemblysync.lp.SyncLPRepository
 import com.nana.nana.domain.feature.assemblysync.lp.SyncTransLPRepository
 import com.nana.nana.domain.feature.assemblysync.lp.datamodel.LPSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.allLanguages
 import com.nana.nana.domain.feature.translation.openai.GPTRequest
 import com.nana.nana.domain.feature.translation.openai.LPNicknamePrompt.generatePromptMultiLangNicknamesPrompt
 import com.nana.nana.domain.feature.translation.openai.apiclient.GPTGenApiClient

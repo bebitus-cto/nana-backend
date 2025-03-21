@@ -1,5 +1,7 @@
 package com.nana.nana.domain.feature.translation.openai
 
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
+
 object MPNamePrompt {
 
     val gptExistingEnAndZhLanguages = targetLanguages.filter { it != "en" && it != "zh" }

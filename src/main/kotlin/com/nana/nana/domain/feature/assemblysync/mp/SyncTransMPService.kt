@@ -4,6 +4,7 @@ import com.nana.nana.domain.enums.ElectionStatus
 import com.nana.nana.domain.enums.Party
 import com.nana.nana.domain.feature.assemblysync.lp.apiclient.TransApiClient
 import com.nana.nana.domain.feature.assemblysync.mp.datamodel.MPSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withPermit

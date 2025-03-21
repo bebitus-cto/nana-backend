@@ -6,6 +6,7 @@ import com.nana.nana.domain.feature.assemblysync.mp.apiclient.json.SyncResourceP
 import com.nana.nana.domain.feature.assemblysync.mp.apiclient.SyncMPApiClient
 import com.nana.nana.domain.feature.assemblysync.mp.apiclient.MPsJsonDownloader.getCurrentMPsJson
 import com.nana.nana.domain.feature.assemblysync.mp.apiclient.MPsJsonDownloader.getCurrentMPsSnsJson
+import com.nana.nana.domain.feature.translation.config.TransConfig.allLanguages
 import com.nana.nana.table.mp.getMPsTable
 import com.nana.nana.domain.feature.translation.openai.GPTSyncRetryService
 import kotlinx.coroutines.*

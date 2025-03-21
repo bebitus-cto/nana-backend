@@ -2,6 +2,7 @@ package com.nana.nana.domain.feature.assemblysync.lp.batchprocessor
 
 import com.nana.nana.domain.feature.assemblysync.mp.datamodel.MPSyncDataModel
 import com.nana.nana.domain.feature.assemblysync.mp.SyncTransMPRepository
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
 import com.nana.nana.domain.feature.translation.openai.GPTRequest
 import com.nana.nana.domain.feature.translation.openai.MPNamePrompt.generatePromptForExistingZhOnly
 import com.nana.nana.domain.feature.translation.openai.MPNamePrompt.generatePromptForExistingEnAndZh

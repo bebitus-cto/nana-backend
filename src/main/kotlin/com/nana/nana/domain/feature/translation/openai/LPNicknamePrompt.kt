@@ -1,5 +1,7 @@
 package com.nana.nana.domain.feature.translation.openai
 
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
+
 object LPNicknamePrompt {
 
     private val allLanguages = listOf("ko") + targetLanguages  // "ko"를 첫 번째 언어로 추가

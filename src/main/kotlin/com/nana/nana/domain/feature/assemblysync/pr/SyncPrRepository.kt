@@ -3,6 +3,7 @@ package com.nana.nana.domain.feature.assemblysync.pr
 import com.nana.nana.domain.enums.ElectionStatus
 import com.nana.nana.domain.enums.Party
 import com.nana.nana.domain.feature.assemblysync.pr.datamodel.PrSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
 import com.nana.nana.table.pr.getPrsTable
 import org.jetbrains.exposed.sql.batchUpsert
 import org.jetbrains.exposed.sql.select

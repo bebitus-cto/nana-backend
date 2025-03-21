@@ -1,5 +1,6 @@
 package com.nana.nana.config
 
+import com.nana.nana.domain.feature.translation.config.TransConfig.OPEN_AI_API_KEY
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Qualifier

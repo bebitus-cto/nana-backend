@@ -10,6 +10,7 @@ import com.nana.nana.domain.feature.assemblysync.lp.datamodel.LPUrlDataModel
 import com.nana.nana.domain.feature.assemblysync.lpmp.ParticipantSyncDataModel
 import com.nana.nana.domain.feature.assemblysync.lpmp.PartyRankDataModel
 import com.nana.nana.domain.feature.log.LogLPSyncRepository
+import com.nana.nana.domain.feature.translation.config.TransConfig.allLanguages
 import com.nana.nana.table.lp.LPUrlsTable
 import com.nana.nana.table.lp.getLPsTable
 import com.nana.nana.table.lpmp.LPsMPsTable

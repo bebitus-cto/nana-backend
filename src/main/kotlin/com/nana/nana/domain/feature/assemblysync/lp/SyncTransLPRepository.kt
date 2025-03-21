@@ -5,6 +5,8 @@ import com.nana.nana.domain.enums.LPStageResult
 import com.nana.nana.domain.enums.LPSubStatus
 import com.nana.nana.config.ApiConfig.defaultJson
 import com.nana.nana.domain.feature.assemblysync.lp.datamodel.LPSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
+import com.nana.nana.domain.feature.translation.config.TransConfig.withLanguageCode
 import com.nana.nana.table.lp.LPsEnTable.nickname
 import com.nana.nana.table.lp.getLPsTable
 import com.nana.nana.util.WebParser

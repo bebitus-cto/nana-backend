@@ -1,6 +1,7 @@
 package com.nana.nana.domain.feature.translation.openai
 
 import com.nana.nana.domain.feature.assemblysync.mp.datamodel.MPSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
 import com.nana.nana.table.mp.MPsKoTable
 import com.nana.nana.table.mp.MPsTable
 import com.nana.nana.table.mp.getMPsTable

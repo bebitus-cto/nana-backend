@@ -4,6 +4,7 @@ import com.nana.nana.domain.feature.assemblysync.lp.apiclient.TransApiClient
 import com.nana.nana.domain.feature.assemblysync.lp.datamodel.LPSyncDataModel
 import com.nana.nana.domain.feature.assemblysync.lpmp.SyncTransLPMPService
 import com.nana.nana.domain.feature.assemblysync.mp.datamodel.MPSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
 import com.nana.nana.util.WebParser
 import com.nana.nana.util.WebParser.PreviewTextTitleType.Companion.PREVIEW_CONTENT_CLAUSE_TRANSLATIONS
 import com.nana.nana.util.WebParser.PreviewTextTitleType.Companion.getTranslatedTitle

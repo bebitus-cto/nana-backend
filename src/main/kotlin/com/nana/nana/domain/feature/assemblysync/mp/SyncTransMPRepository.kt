@@ -2,6 +2,7 @@ package com.nana.nana.domain.feature.assemblysync.mp
 
 import com.nana.nana.domain.enums.Gender
 import com.nana.nana.domain.feature.assemblysync.mp.datamodel.MPSyncDataModel
+import com.nana.nana.domain.feature.translation.config.TransConfig.targetLanguages
 import com.nana.nana.table.mp.getMPsTable
 import org.jetbrains.exposed.sql.batchUpsert
 import org.jetbrains.exposed.sql.select

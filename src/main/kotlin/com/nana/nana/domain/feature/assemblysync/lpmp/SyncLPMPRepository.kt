@@ -5,6 +5,7 @@ import com.nana.nana.domain.enums.ProposerRole
 import com.nana.nana.domain.feature.assemblysync.lp.datamodel.LPSyncDataModel
 import com.nana.nana.domain.feature.assemblysync.mp.datamodel.MPSyncDataModel
 import com.nana.nana.domain.feature.log.LogLPSyncRepository
+import com.nana.nana.domain.feature.translation.config.TransConfig.allLanguages
 import com.nana.nana.table.lpmp.LPsMPsTable
 import com.nana.nana.table.mp.MPsKoTable
 import org.jetbrains.exposed.sql.JoinType
